@@ -1,11 +1,11 @@
 hellow world
 hellow
 
-second change
+Second change
 
-third change
+Third change
 
-fourth change
+Fourth change
 
 Creating a new branch is quick and simple
 
