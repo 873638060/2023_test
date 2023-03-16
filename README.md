@@ -1,7 +1,9 @@
 # 2023_test
+
 2023/3/13 创建，用于学习
 
 ########## ########## ########## ########## ########## ########## ########## ########## ########## ##########
+
 【MySQL】
 
 ********** ********** 2023.03.16 ********** **********
@@ -30,8 +32,11 @@ default-character-set=utf8
 
 [mysqld]
 init_connect='SET collation_connection = utf8_unicode_ci'
+
 init_connect='SET NAMES utf8'
+
 character-set-server=utf8
+
 collation-server=utf8_unicode_ci skip-character-set-client-handshake
 
 //重启mysql服务，mysql里面用 show variables like 'char%'; 可以看有没有配置好，除了file_system全是utf8说明搞定
