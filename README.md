@@ -59,14 +59,10 @@ collation-server=utf8_unicode_ci skip-character-set-client-handshake
 
 ********** ********** 2023.03.26 ********** **********
 
-(t) => t !== todo
-
-//实际上就是
-
+    (t) => t !== todo
+    //实际上就是
     function(t){
-
         return t !==todo
-
     }
 
 ********** ********** ********** ********** **********
