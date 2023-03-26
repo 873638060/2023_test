@@ -63,10 +63,10 @@ collation-server=utf8_unicode_ci skip-character-set-client-handshake
 
 //实际上就是
 
-function(t){
+    function(t){
 
         return t !==todo
 
-}
+    }
 
 ********** ********** ********** ********** **********
